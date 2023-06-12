@@ -1,0 +1,78 @@
+This token was created on Cardano-Tools.io which is an awesome site that you can mint and manage Cardano tokens from. They allow easy minting, burning, and addition to the Cardano Token Registry from that site. 
+This token has not as of yet been added to the registry, Im leaving that open like this project.
+
+If you add this policy, and this signing key on Cardano-Tools.io you too can manipulate this token. (I will burn the currently created tokens as soon as this gets any momentum, it's intended to be a social experiment)
+
+Heres the Necessary Info, have fun, and share what you come up with here or on twitter :) If you have any questions contact me on Twitter @ADA_NFT_Stuff
+
+Policy id
+bb6b657504d86d398601bffdbfbe8cd080b610b42d75f12d8be7a41c
+
+Policy script
+{
+   "type": "all",
+   "scripts": [
+      {
+         "slot": 175337607,
+         "type": "before"
+      },
+      {
+         "keyHash": "c885225bfdc3a680e6b06b8da2846bf5c27dd062481fde78f4c1c845",
+         "type": "sig"
+      }
+   ]
+}
+
+Metadata
+{
+   "20": {
+      "bb6b657504d86d398601bffdbfbe8cd080b610b42d75f12d8be7a41c": {
+         "5365782050616E74686572": {
+            "ticker": "Rawr",
+            "symbol": "Rawr",
+            "name": "Sex Panther",
+            "desc": [
+               "60% of the time, it works everytime!",
+               "Let's go see if we can make this kitty purr."
+            ],
+            "description": [
+               "60% of the time, it works everytime!",
+               "Let's go see if we can make this kitty purr."
+            ],
+            "icon": "ipfs://QmRKcYPZD6BvdFWZXFHBht3a6bRC6EwLXgR5koqUWEHU8n",
+            "image": "ipfs://QmRornfMcbPWcvYbbKvHouaGTjRyDainfhUEsKFQJz8v25",
+            "mediaType": "image/png",
+            "decimals": "0"
+         }
+      },
+      "version": "1.0"
+   },
+   "721": {
+      "bb6b657504d86d398601bffdbfbe8cd080b610b42d75f12d8be7a41c": {
+         "SexPanther": {
+            "name": "Sex Panther",
+            "ticker": "Rawr",
+            "symbol": "Rawr",
+            "icon": "ipfs://QmRKcYPZD6BvdFWZXFHBht3a6bRC6EwLXgR5koqUWEHU8n",
+            "image": "ipfs://QmRornfMcbPWcvYbbKvHouaGTjRyDainfhUEsKFQJz8v25",
+            "mediaType": "image/png",
+            "description": [
+               "60% of the time, it works everytime!",
+               "Let's go see if we can make this kitty purr."
+            ]
+         }
+      },
+      "version": "1.0"
+   }
+}
+
+TransactionOutputs(outputs={addr1qyamgcyvk4l2nsgjsnrf2hx90hdyv58xl0egjyvemqtf9zut0cfrp7338fxgh5w6fgwc2fw2shrs97z20447efcq4c0qtclk4d={=1206800, bb6b657504d86d398601bffdbfbe8cd080b610b42d75f12d8be7a41c.53657850616e74686572=1000000000000000}, addr1qx6pnsm9n3lrvtwx24kq7a0mfwq2txum2tvtaevnpkn4mpyghzw2ukr33p5k45j42w62pqysdkf65p34mrvl4yu4n72s7yfgkq={=1000000}})
+
+Policy Signing Key
+
+{
+    "type": "PaymentSigningKeyShelley_ed25519",
+    "description": "Payment Signing Key",
+    "cborHex": "5820c3dd91a0f2e383fa0dba6841dee52409fc8443263e5cd7eb987c0715cbe96537"
+}
+
